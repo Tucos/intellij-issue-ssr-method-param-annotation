@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StructuralSearch">
+    <replaceConfiguration name="ssr-issue" text="@org.example.MyMethodAnnotation(&quot;$text$&quot;)&#10;$ReturnType$ $method$($ArgType$ $text$);&#10;" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default" reformatAccordingToStyle="true" shortenFQN="true" replacement="@org.example.MyMethodAnnotation&#10;$ReturnType$ $method$(@MyParamAnnotation $ArgType$ $text$);&#10;">
+      <constraint name="__context__" within="" contains="" />
+      <constraint name="text" within="" contains="" />
+      <constraint name="ReturnType" within="" contains="" />
+      <constraint name="method" target="true" within="" contains="" />
+      <constraint name="ArgType" within="" contains="" />
+    </replaceConfiguration>
+  </component>
+</project>
