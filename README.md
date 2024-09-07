@@ -5,6 +5,8 @@ This project demonstrates an issue with IntelliJ's "Replace Structurally".
 The aim of the pattern is to replace a method annotation referring to a parameter by name,
 with an annotation on that parameter.
 
+This issue has been reported as [IDEA-358911](https://youtrack.jetbrains.com/issue/IDEA-358911/Structural-replace-drops-a-variable)
+
 ## Code example
 Code before:
 ```java
